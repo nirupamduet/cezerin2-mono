@@ -29,16 +29,16 @@ Single-Page Application with React server-side rendering. [Demo store](https://s
 
 ## Installation
 
-git clone https://github.com/cezerin/cezerin.git cezerin
-cd cezerin
-npm install
-npm run build
+* git clone https://github.com/cezerin/cezerin.git cezerin
+* cd cezerin
+* npm install
+* npm run build
 
 ## Problem with bcrypt module (if)
 
- npm install node-gyp -g
- npm install bcrypt -g
- npm install bcrypt -save
+ * npm install node-gyp -g
+ * npm install bcrypt -g
+ * npm install bcrypt -save
 
 
 
