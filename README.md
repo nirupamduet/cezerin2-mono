@@ -29,10 +29,18 @@ Single-Page Application with React server-side rendering. [Demo store](https://s
 
 ## Installation
 
-- [with GitHub](https://github.com/Cezerin2/cezerin2-mono/blob/master/docs/getting-started.md)
-- [with Docker](https://github.com/Cezerin2/cezerin2-mono/blob/master/docs/getting-started-docker.md)
-- [How to deploy a Cezerin on Ubuntu 16.04](https://github.com/Cezerin2/cezerin2-mono/blob/master/docs/how-to-deploy-a-cezerin-on-ubuntu-16-04.md)
-- [How to deploy a Cezerin on Ubuntu 18.04.1 (from GitHub)](https://github.com/Cezerin2/cezerin2-mono/blob/master/docs/how-to-deploy-a-cezerin-on-ubuntu-18-04-1-github.md)
+git clone https://github.com/cezerin/cezerin.git cezerin
+cd cezerin
+npm install
+npm run build
+
+## Problem with bcrypt module (if)
+
+ npm install node-gyp -g
+ npm install bcrypt -g
+ npm install bcrypt -save
+
+
 
 ### Requirements
 * Node.js >= 8
